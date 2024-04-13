@@ -1,4 +1,4 @@
-= Spring Projects
-:page-article: spring-projects
+= TODAY Projects
+:page-article: today-projects
 
 This won't be displayed because we override the article

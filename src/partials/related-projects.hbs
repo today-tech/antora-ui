@@ -1,11 +1,11 @@
 <ul class="projects">
   <li>
-    Related Spring Documentation
+    相关文档
     <ul class="projects-list">
-      {{#each (related_projects (split page.attributes.related-doc-categories) (split page.attributes.related-doc-projects) (spring-projects))}}
+      {{#each (related_projects (split page.attributes.related-doc-categories) (split page.attributes.related-doc-projects) (today-projects))}}
         {{> related-project this}}
       {{/each}}
     </ul>
   </li
-  <li><a href="{{{relativize '/spring-projects.html'}}}">All Docs...</a></li>
+  <li><a href="{{{relativize '/today-projects.html'}}}">All Docs...</a></li>
 </ul>

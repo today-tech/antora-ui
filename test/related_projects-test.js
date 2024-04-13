@@ -96,7 +96,7 @@ describe('related_projects', () => {
 })
 
 function project (id, attrs) {
-  return { href: `https://docs.spring.io/spring-${id}/reference/`, ...attrs, id: id, text: `Spring ${id}` }
+  return { href: `https://docs.today-tech.cn/spring-${id}/reference/`, ...attrs, id: id, text: `Spring ${id}` }
 }
 
 function relatedProjectIds (categories, projectIds, projects) {

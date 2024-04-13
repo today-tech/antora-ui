@@ -6,11 +6,11 @@ asciidoc:
   - '@springio/asciidoctor-extensions'
 site:
   url: http://localhost:5252
-  title: Spring
+  title: TODAY
   homeUrl: /index.html
   components:
   - name: foobar
-    title: &component_title Spring Foobar
+    title: &component_title TODAY Foobar
     url: '#'
     versions: &foobar_versions
     - &foobar_latest_version
@@ -26,7 +26,7 @@ site:
       versionSegment: '1.0'
     latest: *foobar_latest_version
   - name: baz
-    title: &baz_component_title Spring Baz
+    title: &baz_component_title TODAY Baz
     url: '#'
     versions:
       - &baz_latest_version
@@ -40,11 +40,11 @@ shared:
   foobar:
     1.0.0:
       home: true
-      title: Spring Foobar
+      title: TODAY Foobar
       relativeSrcPath: index.adoc
       editUrl: http://example.com/project-xyz/blob/master/index.adoc
       component:
-        title: Spring Foobar
+        title: TODAY Foobar
         url: '#'
         versions:
           - url: '/index.html'
@@ -73,11 +73,11 @@ shared:
               url: '/1.0/index.html'
     2.0.0:
       home: true
-      title: Spring Foobar
+      title: TODAY Foobar
       relativeSrcPath: index.adoc
       editUrl: http://example.com/project-xyz/blob/master/index.adoc
       component:
-        title: &component_title Spring Foobar
+        title: &component_title TODAY Foobar
         url: '#'
         versions: *foobar_versions
       componentVersion: *foobar_latest_version
@@ -107,11 +107,11 @@ shared:
   baz:
     1.0.0:
       home: true
-      title: Spring Baz
+      title: TODAY Baz
       relativeSrcPath: index.adoc
       editUrl: http://example.com/project-xyz/blob/master/index.adoc
       component:
-        title: Spring Baz
+        title: TODAY Baz
         url: '#'
         versions:
           - *baz_latest_version

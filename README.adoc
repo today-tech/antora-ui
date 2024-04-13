@@ -227,7 +227,7 @@ The UI presents a list of related documentation and that documentation can be fi
 * page-related-doc-categories - The categories to be included in the related documentation
 * page-related-doc-projects - The project ids to be included in the related documentation
 
-For a complete listing of valid categories and ids view https://github.com/spring-io/antora-ui-spring/blob/main/src/helpers/related_projects.js[related_projects.js]
+For a complete listing of valid categories and ids view https://github.com/today-tech/antora-ui/blob/main/src/helpers/related_projects.js[related_projects.js]
 
 The configuration is typically specified in asciidoc attributes section of the antora-playbook.yml:
 
@@ -243,4 +243,4 @@ asciidoc:
 ----
 
 The Related Documentation links to the `All Docs...` page.
-To include this resource, ensure that the https://github.com/spring-io/antora-extensions/blob/main/README.adoc[antora-extensions] is using 1.7.0+ and the https://github.com/spring-io/antora-extensions/blob/main/README.adoc#static-page[Static Page Extension] is included.
+To include this resource, ensure that the https://github.com/today-tech/antora-extensions/blob/main/README.adoc[antora-extensions] is using 1.7.0+ and the https://github.com/today-tech/antora-extensions/blob/main/README.adoc#static-page[Static Page Extension] is included.
